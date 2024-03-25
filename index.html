@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculando o Imc</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+</head>
+<body>
+    <!--O cabeçalho-->
+    <header id="header">
+        <img id="Icon" src="icone/balanca.png">
+        <h1 id="titleHeader">Descubra se você está no Peso Ideal !!</h1>
+    </header>
+
+    <!--Onde o usuario fará o calculo-->
+    <div id="Calculo">
+    <h1>Calcule seu Imc</h1>
+    <p>Altura(cm):</p>
+    <input type="number" name="altura" id="altura"><br>
+    <p>Peso(kg):</p>
+    <input type="number" name="peso" id="peso"><br>
+
+    <input id="button" type="button" value="Calcular" onclick="imc()">
+    
+    <div id="res">Resultado:</div>
+    
+    <!--Aqui está a tabela que indica se seu peso está ideal!-->
+    <div class="table">
+       <table>
+            <tr class="linha">
+                <th class="imc">IMC</th>
+                <th class="cat">CATEGORIA</th>
+            </tr>
+        
+            <tr class="linha">
+                <td class="imc">Até 18,5 </td>
+                <td class="cat">Abaixo do peso  </td>
+            </tr>
+
+            <tr class="linha">
+                <td class="imc">De 18,5 - 24,9</td>
+                <td class="cat">Saúdavel  </td>
+            </tr>
+            
+            <tr class="linha">
+                <td class="imc">De 25,0 - 29,9 </td>
+                <td class="cat">Sobrepeso </td>
+            </tr>
+
+            <tr class="linha">
+                <td class="imc">De 30,0 - 39,9 </td>
+                <td class="cat">Obeso </td>
+            </tr>
+
+            <tr class="linha">
+                <td class="imc">Acima de 40,0</td>
+                <td class="cat"> Extremo ou alto risco de obesidade  </td>
+            </tr>
+
+       </table>
+    </div>
+    </div>
+    <footer>&copy;gustavooliveirabueno</footer>
+    <script src="./script.js"></script>
+</body>
+</html>
