@@ -1,0 +1,79 @@
+body {
+            
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color:rgb(63, 140, 228);
+    color: aliceblue;
+}
+
+
+#header{
+    margin: -23px;
+    padding: 25px;
+    height: 85px;
+    background-color:  rgb(46, 46, 46);
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#Icon{
+    height: 100px;
+    margin-right: 90%;
+}
+
+#titleHeader{
+    margin-top: -70px;
+    margin-right:35%;
+    margin-bottom:20px;
+}
+
+#Calculo{
+    margin-top:100px;
+}
+
+input{
+    height:20px;
+    width:150px;
+    border-radius:15px;
+    border:none;
+}
+
+#button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color:rgb(255, 255, 255);
+    background-color: rgb(46, 46, 46);
+    border: none;
+    border-radius: 10px;
+    margin: 20px 0px 20px 0px;
+    width: 80px;
+    height: 30px;
+}
+
+.table{
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imc{
+    margin-left:0px;
+    border-style:solid;
+    font:arial 15pt antiquewhite;
+}
+.cat{
+    padding-left: 40px;
+    border-style:solid;
+    font:arial 15pt antiquewhite;
+}
+#res{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+footer{
+    margin: 2%;
+    text-align:center ;
+    font:italic 12pt white ;
+}
